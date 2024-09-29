@@ -5,7 +5,7 @@ import os
 
 haar_cascade = cv.CascadeClassifier('haar_face_recognition.xml')
 people = ['Jonny Depp', 'Zayn Malik', 'Zendaya']
-DIR = r'C:\face recognition\faces_to_train'
+DIR = r'faces_to_train'
 
 features = []
 labels = []
