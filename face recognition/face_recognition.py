@@ -12,7 +12,7 @@ face_labeles = np.load('face_labels.npy',allow_pickle=True)
 face_recognization = cv.face.LBPHFaceRecognizer_create()
 face_recognization.read("face_recognition_model.yml")
 
-img =cv.imread(r'C:\face recognition\test_photos\zendaya1.png')
+img =cv.imread(r'test_photos\jonny_depp.png')
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
 
